@@ -119,7 +119,7 @@ function UploadForm() {
                 {alertContent === 'Error occurred'
                     ? alert && <Alert severity='error'>{alertContent}</Alert>
                     : alert && <Alert severity='success'>{alertContent}</Alert>}
-                <Box component='form' onSubmit={uploadArtwork} maxWidth='lg' sx={{ height: 700 }}>
+                <Box component='form' onSubmit={uploadArtwork} maxWidth='lg'>
                     <p>Upload artwork here 👇🏼</p>
                     <FormControl component='fieldset' id='form'>
                         <Grid container spacing={2}>
