@@ -1,4 +1,5 @@
 # CanvasConfetti Admin
+[![Package - react](https://img.shields.io/github/package-json/dependency-version/plutach/cc_admin/react?color=blue)](https://www.npmjs.com/package/react)
 
 > A client application and an artwork uploader/admin project for www.canvasconfetti.com site, which uses a [server application](https://github.com/plutach/file-uploader-s3). 
 This project uses ReactJs, Material UI and Axios.
